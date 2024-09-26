@@ -11,6 +11,13 @@ h3,
 p {
   margin: 0;
 }
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
 .container {
   max-width: 960px;
   padding-left: 16px;
@@ -19,3 +26,17 @@ p {
   padding: 0 16px;
 }
 /* #endregion defaults */
+
+.page-title {
+  text-align: center;
+}
+.benef-list {
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.benef-item {
+  padding: 16px;
+  flex-basis: 250px;
+  border: 1px solid tomato;
+}
