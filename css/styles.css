@@ -1,0 +1,21 @@
+/* #region defaults */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  color: #212121;
+  padding: 25px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 960px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* #endregion defaults */
